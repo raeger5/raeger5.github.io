@@ -20,7 +20,7 @@
    * colors
    */
 
-  --raw-seinna: hsl(24, 74%, 58%);
+  /*--raw-seinna: hsl(24, 74%, 58%);*/
   --sizzling-sunrise: hsl(51, 95%, 54%);
   --scarlet: hsl(13, 96%, 47%);
   --black: hsl(0, 0%, 0%);
@@ -89,7 +89,7 @@ body.dark_theme {
 
 body.light_theme {
 
-  --bg-primary: hsl(0, 0%, 95%);
+  --bg-primary: hsl(0, 0%, 99%);
   --bg-secondary: hsl(0, 0%, 100%);
   --color-primary: hsl(0, 0%, 12%);
   --color-secondary: hsl(0, 0%, 37%);
@@ -404,9 +404,9 @@ body.active { overflow: hidden; }
   display: grid;
   place-items: center;
   visibility: hidden;
-  /*transition: 0.75s cubic-bezier(0.71, 0.01, 0.24, 0.99);
+  transition: 0.75s cubic-bezier(0.71, 0.01, 0.24, 0.99);
   transition-delay: 0.5s;
-  z-index: 1;*/
+  z-index: 1;
 }
 
 .navbar.active {
@@ -429,8 +429,8 @@ body.active { overflow: hidden; }
   font-family: var(--ff-poppins);
   font-size: var(--fs-1);
   padding: 10px;
-  /*transform: translateY(50px);
-  transition: 0.75s cubic-bezier(0.68, -0.55, 0.27, 2);*/
+  transform: translateY(50px);
+  transition: 0.75s cubic-bezier(0.68, -0.55, 0.27, 2);
 }
 
 .navbar.active .navbar-link {
