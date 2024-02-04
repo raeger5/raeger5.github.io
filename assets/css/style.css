@@ -436,12 +436,12 @@ body.active { overflow: hidden; }
   content: "";
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  /*transform: translateY(-50%);*/
   left: 0;
   height: 5px;
   width: 0;
-  background: var(--raw-seinna);
-  transition: var(--transition-1);
+  /*background: var(--raw-seinna);
+  transition: var(--transition-1);*/
 }
 
 .navbar-link:is(:hover, :focus)::before { width: 100%; }
