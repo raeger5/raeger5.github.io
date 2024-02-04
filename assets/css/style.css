@@ -583,7 +583,7 @@ main { overflow-x: hidden; }
 .skills-content { margin-bottom: 50px; }
 
 .skills-toggle {
-  background: var(--bg-secondary);
+  background: black;
   position: relative;
   width: max-content;
   margin-inline: auto;
