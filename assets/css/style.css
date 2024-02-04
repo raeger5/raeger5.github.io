@@ -727,7 +727,7 @@ main { overflow-x: hidden; }
 .load-more {
   font-size: var(--fs-4);
   color: var(--raw-seinna);
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   margin-inline: auto;
 }
 
