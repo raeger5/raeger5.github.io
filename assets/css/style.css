@@ -151,9 +151,8 @@ ion-icon { pointer-events: none; }
 }
 
 html {
-    /*font-family: var(--ff-roboto);*/
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    scroll-behavior: smooth;
+  font-family: var(--ff-roboto);
+  scroll-behavior: smooth;
 }
 
 body {
